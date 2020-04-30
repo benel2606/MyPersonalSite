@@ -66,6 +66,7 @@ ul li .data:hover {
     float: left;
 }
 
+
 .social-icons li a {
     font-size: 18px;
     line-height: 30px;
@@ -105,7 +106,7 @@ ul li .data:hover {
 }
 
 @media only screen and (max-width: 575px) {
-    .social-icon li {
+    .social-icons {
         list-style: none;
         float: none;
         text-align: center;

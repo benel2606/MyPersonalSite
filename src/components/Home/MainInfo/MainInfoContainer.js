@@ -8,7 +8,7 @@ const MainInfoContainer = () => {
     <div>
       <div className="main-info">
         <div className="container">
-          <div className="row xs-column-reverse section-separator  home-padding">
+          <div className="row xs-column-reverse section-separator home-padding">
             <div className="col-sm-6">
               <MyImage />
             </div>

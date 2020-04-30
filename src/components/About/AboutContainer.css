@@ -42,3 +42,35 @@ ul li span {
 .btn .icons {
     margin-left: 10px
 }
+
+@media only screen and (max-width: 575px) {
+    .section-separator {
+        padding: 30px 0;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section-separator {
+        padding: 40px 0;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .about .about-inner {
+        padding-left: 5px;
+        text-align: center;
+        margin: 30px 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about .about-inner {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .about .about-inner {
+        padding-left: 5px;
+    }
+}

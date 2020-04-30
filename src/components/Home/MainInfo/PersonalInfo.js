@@ -44,7 +44,7 @@ const PersonalInfo = () => {
           </a>
         </li>
       </ul>
-      <ul className="social-icons icons">
+      <ul className="social-icons">
         <li>
           <a href="https://www.linkedin.com/in/benel-aharon-337822165/">
             <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
