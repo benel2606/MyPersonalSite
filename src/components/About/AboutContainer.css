@@ -1,0 +1,44 @@
+.about {
+    padding: 60px 0;
+    padding-top: 100px;
+
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+.tech-list li {
+    margin: 0px 6px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 4px 0px;
+    display: inline-block;
+}
+
+ul li span {
+    border: 1px solid #0bceaf;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.tech {
+    padding: 10px 0;
+}
+
+.btn-fill {
+    background-color: #0bceaf;
+    color: #fff;
+}
+
+.btn {
+    transition: color 0.3s ease;
+    outline: 0;
+    padding: 8px 30px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.btn .icons {
+    margin-left: 10px
+}

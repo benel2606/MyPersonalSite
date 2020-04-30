@@ -14,3 +14,16 @@
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 0px;
 }
+
+
+.section-separator {
+  padding: 60px 0;
+  padding-top: 100px;
+}
+
+@media only screen and (max-width: 420px) {
+
+  .home-padding {
+    padding: 60px 0;
+  }
+}
