@@ -14,12 +14,11 @@ const AboutContainer = () => {
           <div className="about-inner">
             <h2>About Me</h2>
             <p>
-              Hey, I’m a Benel,Fourth-year Software Engineering Student.
-              Experience in the development of undergraduate studies.
-              {/* Creative, Team Player, Independent and fast learner. */}
-              Love learning and earning new abilities. High motivation and
+              Hey, I’m Benel, Fourth-year Software Engineering Student.
+              Experience in the development of undergraduate studies. Love
+              learning and earning new abilities. High motivation and
               willingness of challenging mission. Aside from having fun with
-              development I like to Travel, Sport And Movies.
+              code I like to travel, sport And watching movies.
             </p>
             <div className="tech">Key Technologies:</div>
             <ul className="tech-list">
