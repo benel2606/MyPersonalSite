@@ -53,7 +53,7 @@ const getExp = (exp) => {
           workPlace: "Malam Team",
           years: "2015-2016",
           description:
-            "Technical support for the Tel Aviv Municipality in an IT company that provides a variety of IT solutions, in addition support for a wide range of systems and software in various areas.",
+            "Technical support for the Tel Aviv Municipality in an IT company that provides a variety of IT solutions for a wide range of systems and software in various areas.",
         },
       ];
     default:
