@@ -1,4 +1,4 @@
-.about {
+.section-separator {
     padding: 60px 0;
     padding-top: 100px;
 
@@ -56,7 +56,7 @@ ul li span {
 }
 
 @media only screen and (max-width: 575px) {
-    .about .about-inner {
+    .about-inner {
         padding-left: 5px;
         text-align: center;
         margin: 30px 15px;
@@ -64,13 +64,13 @@ ul li span {
 }
 
 @media only screen and (max-width: 768px) {
-    .about .about-inner {
+    .about-inner {
         margin-top: 40px;
     }
 }
 
 @media only screen and (max-width: 991px) {
-    .about .about-inner {
+    .about-inner {
         padding-left: 5px;
     }
 }
