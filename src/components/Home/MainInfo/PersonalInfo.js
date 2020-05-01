@@ -16,7 +16,7 @@ const PersonalInfo = () => {
   return (
     <div className="home">
       <div>
-        <span className="bubble">Hello I'm</span>
+        <span className="bubble">Hey I'm</span>
       </div>
       <h2 className="my-name">Benel Aharon</h2>
       <div className="my-title">Software Engineering Student</div>
