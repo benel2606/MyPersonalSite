@@ -1,0 +1,59 @@
+figure {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.17);
+
+}
+
+figure img {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+figure figcaption {
+    position: absolute;
+    padding: 15px;
+    height: 100%;
+    width: 100%;
+    top: auto;
+    left: 0;
+    color: #fff;
+    bottom: 0;
+    z-index: 10;
+    background-color: #0bceaf;
+    opacity: 0.95;
+}
+
+.grid-item figure figcaption .search-icon {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    top: 45%;
+    margin-top: -22px;
+
+}
+
+.grid-item figure figcaption .project-name {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    right: 0;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: capitalize;
+    top: 50%;
+    margin-top: 30px;
+    margin-top: -2px;
+}

@@ -1,30 +1,21 @@
-import React, { useState } from "react";
+import React from "react";
+import { getProject } from "./ProjectInfo";
+import PortfolioBox from "./PortfolioBox";
 import "./PortfolioContainer.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
+
 const PortfolioConatainer = () => {
-  const [showComponents, setShowComponents] = useState(false);
-
-  const getComponent = () => {
-    return (
-      <figcaption className="fig-caption">
-        <FontAwesomeIcon icon={faSearch} className="fa"></FontAwesomeIcon>
-        <h5 className="titles">Blog</h5>
-      </figcaption>
-    );
-  };
-
+  const myProject = getProject();
   return (
-    <div className="container">
-      <div className="project-gallery col-sm-12">
-        <div className="portfolio row">
-          <div className="grid-item col-md-4 col-sm-6 col-xs-12 ">
-            <figure
-              onMouseOver={() => setShowComponents(true)}
-              onMouseLeave={() => setShowComponents(false)}>
-              <img src="blogs.jpg" alt="img04" />
-              {showComponents ? getComponent() : null}
-            </figure>
+    <div className="row section-separator ">
+      <div className="section-title col-sm-12">
+        <h3>Portfolio</h3>
+      </div>
+      <div className="container">
+        <div className="project-gallery col-sm-12">
+          <div className="portfolio row">
+            {myProject.map((project, index) => {
+              return <PortfolioBox key={index} project={project} />;
+            })}
           </div>
         </div>
       </div>
@@ -33,3 +24,8 @@ const PortfolioConatainer = () => {
 };
 
 export default PortfolioConatainer;
+
+/*
+<div class="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.1s; animation-name: fadeInUp;">
+                        <h3>Recent Portfolio</h3>
+                    </div>*/

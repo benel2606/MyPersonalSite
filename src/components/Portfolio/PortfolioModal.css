@@ -1,0 +1,92 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+
+}
+
+.portfolio-modal {
+    position: fixed;
+    background: white;
+    width: 90%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    max-width: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 44px;
+    position: relative;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+
+}
+
+.portfolio-modal-inner {
+    max-height: 500px;
+    overflow-y: scroll;
+    margin-right: 20px;
+    box-sizing: border-box
+}
+
+.portfolio-modal-inner h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.close-btn {
+    color: currentColor;
+    padding: 10px;
+    right: 0;
+    top: 0;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    color: #ccc;
+    cursor: pointer;
+    opacity: .8;
+    padding: 8px;
+    position: absolute;
+    z-index: 401;
+}
+
+.about-tag ul li {
+    margin: 0px 6px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 4px 0px;
+    display: inline-block;
+}
+
+.portfolio-modal-img img {
+    border: 2px solid rgba(0, 0, 0, 0.17);
+    max-width: 90%;
+    max-height: 450px;
+
+}
+
+@media only screen and (max-width: 575px) {
+    .portfolio-modal {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .portfolio-modal-img {
+        margin-top: 50px;
+    }
+}
