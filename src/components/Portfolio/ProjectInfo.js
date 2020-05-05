@@ -50,6 +50,7 @@ const getProject = (project) => {
         ["blog-new-post.JPG", "New Post"],
       ],
     },
+
     {
       name: "Vehicle Agecy",
       description:
@@ -65,6 +66,15 @@ const getProject = (project) => {
         ["vehicle-inventory.JPG", "vehicles inventory"],
       ],
     },
+
+    // {
+    //   name: "Video Viewer",
+    //   description: "React web application that shows videos using YouTube API.",
+    //   techs: ["Javascript", "ReactJS", "HTML", "CSS", "API"],
+    //   site: "https://github.com/benel2606/VehiclesManagmentAgency",
+    //   main_image: "video-viewer.JPG",
+    //   images: [["video-viewer.JPG", "Home Page"]],
+    // },
   ];
 };
 

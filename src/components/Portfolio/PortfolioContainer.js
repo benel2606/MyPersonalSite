@@ -6,16 +6,18 @@ import "./PortfolioContainer.css";
 const PortfolioConatainer = () => {
   const myProject = getProject();
   return (
-    <div className="row section-separator ">
-      <div className="section-title col-sm-12">
-        <h3>Portfolio</h3>
-      </div>
+    <div className="portfolio">
       <div className="container">
-        <div className="project-gallery col-sm-12">
-          <div className="portfolio row">
-            {myProject.map((project, index) => {
-              return <PortfolioBox key={index} project={project} />;
-            })}
+        <div className="row section-separator ">
+          <div className="section-title col-sm-12">
+            <h3>Portfolio</h3>
+          </div>
+          <div className="project-gallery col-sm-12">
+            <div className="portfolio row">
+              {myProject.map((project, index) => {
+                return <PortfolioBox key={index} project={project} />;
+              })}
+            </div>
           </div>
         </div>
       </div>

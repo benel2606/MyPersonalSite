@@ -10,6 +10,7 @@ figure img {
     position: relative;
     width: 100%;
     display: block;
+
 }
 
 figure figcaption {
@@ -24,6 +25,8 @@ figure figcaption {
     z-index: 10;
     background-color: #0bceaf;
     opacity: 0.95;
+
+
 }
 
 .grid-item figure figcaption .search-icon {
