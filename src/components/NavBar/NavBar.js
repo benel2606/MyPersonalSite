@@ -17,21 +17,23 @@ const NavBar = () => {
             to="about"
             smooth={true}
             duration={1000}
-            offset={50}>
+            offset={-115}>
             About
           </Link>
           <Link
             activeClass="mr-auto"
             to="experience"
             smooth={true}
-            duration={1000}>
+            duration={1000}
+            offset={-115}>
             Experiece
           </Link>
           <Link
             activeClass="mr-auto"
             to="portfolio"
             smooth={true}
-            duration={1000}>
+            duration={1000}
+            offset={-115}>
             Portfolio
           </Link>
         </Nav>
