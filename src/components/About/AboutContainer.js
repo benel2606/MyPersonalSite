@@ -13,7 +13,7 @@ const AboutContainer = () => {
           </div>
           <div className="col-sm-12 col-md-6">
             <div className="about-inner">
-              <h2>About Me</h2>
+              <h2 className="about-title">About Me</h2>
               <p>
                 Hey, I’m Benel, Fourth-year Software Engineering Student.
                 Experience in the development of undergraduate studies. Love

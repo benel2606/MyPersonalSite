@@ -4,6 +4,12 @@
 
 }
 
+.about-title {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
 p {
     margin-bottom: 30px;
 }
