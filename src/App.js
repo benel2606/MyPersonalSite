@@ -10,6 +10,7 @@ import TechAndToolsContainer from "./components/TechAndTools/TechAndToolsContain
 const App = () => {
   return (
     <div>
+      <div id="stars2"></div>
       <NavBar />
       <MainInfoContainer />
       <AboutContainer />

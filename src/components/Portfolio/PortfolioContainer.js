@@ -10,7 +10,9 @@ const PortfolioConatainer = () => {
       <div className="container">
         <div className="row section-separator ">
           <div className="section-title col-sm-12">
-            <h2 className="portfolio-title">Portfolio</h2>
+            <h2 className="portfolio-title">
+              Portfolio<hr></hr>
+            </h2>
           </div>
           <div className="project-gallery col-sm-12">
             <div className="portfolio row">
