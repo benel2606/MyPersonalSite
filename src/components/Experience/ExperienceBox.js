@@ -1,27 +1,27 @@
 import React from "react";
 import "./ExperienceBox.css";
 
-const ExperienceBox = (exp) => {
+const ExperienceBox = ({ exp }) => {
   return (
     <div className="education-deatils">
       <div className="education-item dark-bg">
         <div className="img-align">
-          <img className="logo" src={`${exp.exp.image}`} alt="" />
+          <img className="logo" src={`${exp.image}`} alt="" />
         </div>
-        {exp.exp.type === "edu" ? (
+        {exp.type === "edu" ? (
           <h4>
-            {exp.exp.degree}, <div className="title">{exp.exp.title}</div>
+            {exp.degree}, <div className="title">{exp.title}</div>
           </h4>
         ) : (
           <h4>
-            {exp.exp.position}, <div className="title">{exp.exp.workPlace}</div>
+            {exp.position}, <div className="title">{exp.workPlace}</div>
           </h4>
         )}
 
-        <h5>{exp.exp.institution}</h5>
+        <h5>{exp.institution}</h5>
 
-        <div className="year">{exp.exp.years}</div>
-        <p>{exp.exp.description}</p>
+        <div className="year">{exp.years}</div>
+        <p>{exp.description}</p>
       </div>
     </div>
   );
