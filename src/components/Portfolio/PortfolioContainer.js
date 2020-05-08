@@ -10,7 +10,7 @@ const PortfolioConatainer = () => {
       <div className="container">
         <div className="row section-separator ">
           <div className="section-title col-sm-12">
-            <h3>Portfolio</h3>
+            <h2 className="portfolio-title">Portfolio</h2>
           </div>
           <div className="project-gallery col-sm-12">
             <div className="portfolio row">
@@ -26,8 +26,3 @@ const PortfolioConatainer = () => {
 };
 
 export default PortfolioConatainer;
-
-/*
-<div class="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.1s; animation-name: fadeInUp;">
-                        <h3>Recent Portfolio</h3>
-                    </div>*/
