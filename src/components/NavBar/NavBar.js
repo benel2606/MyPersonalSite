@@ -36,6 +36,14 @@ const NavBar = () => {
             offset={-115}>
             Portfolio
           </Link>
+          <Link
+            activeClass="mr-auto"
+            to="skills-tools"
+            smooth={true}
+            duration={1000}
+            offset={-115}>
+            Skill & tools
+          </Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

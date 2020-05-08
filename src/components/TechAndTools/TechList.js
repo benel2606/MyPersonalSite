@@ -1,11 +1,22 @@
-import React from "react";
+const getTech = () => {
+  return [
+    { name: "Javascript", image: "js.svg" },
+    { name: "CSS3", image: "CSS.svg" },
+    { name: "HTML5", image: "html.svg" },
+    { name: "ReactJS", image: "react.svg" },
+    { name: "NodeJS", image: "nodejs.svg" },
+    { name: "ExpressJS", image: "expressjs.png" },
+    { name: "Java", image: "java.svg" },
+    { name: "Python", image: "python.svg" },
+    { name: "Git", image: "git.svg" },
+    { name: "Redux", image: "redux.svg" },
+    { name: "Socket.io", image: "socketio.svg" },
+    { name: "OOP", image: "oop.png" },
+    { name: "MongoDB", image: "mongodb.png" },
+    { name: "NPM", image: "npm.svg" },
 
-const TechList = ({ list }) => {
-  return (
-    <div className="grid-item col-md-4 col-sm-6 col-xs-12 ">
-      <div>{list}</div>
-    </div>
-  );
+    { name: "Bootstrap", image: "bootstrap.svg" },
+  ];
 };
 
-export default TechList;
+export { getTech };

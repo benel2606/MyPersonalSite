@@ -1,10 +1,10 @@
 import React from "react";
-import "./TechAndTools.css";
-import TechList from "./TechList";
-const TechAndTools = () => {
-  const lists = [1, 2, 3, 4, 5, 6];
+import "./TechAndToolsContainer.css";
+import TechBox from "./TechBox";
+import { getTech } from "./TechList";
+const TechAndToolsContainer = () => {
   return (
-    <div className="portfolio">
+    <div className="skills-tools">
       <div className="container">
         <div className="row section-separator ">
           <div className="section-title col-sm-12">
@@ -12,8 +12,8 @@ const TechAndTools = () => {
           </div>
           <div className="col-sm-12">
             <div className="row">
-              {lists.map((list) => (
-                <TechList list={list} />
+              {getTech().map((tech, index) => (
+                <TechBox key={index} name={tech.name} image={tech.image} />
               ))}
             </div>
           </div>
@@ -23,4 +23,4 @@ const TechAndTools = () => {
   );
 };
 
-export default TechAndTools;
+export default TechAndToolsContainer;

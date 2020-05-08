@@ -1,0 +1,22 @@
+.tech-box {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.tech-box img {
+    width: 144px;
+    height: 144px;
+}
+
+
+@media only screen and (max-width: 575px) {
+    .tech-box {
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .tech-box {
+        padding-bottom: 10px;
+    }
+}
