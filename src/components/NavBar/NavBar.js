@@ -42,7 +42,7 @@ const NavBar = () => {
             smooth={true}
             duration={1000}
             offset={-115}>
-            Skill & tools
+            Skills & tools
           </Link>
         </Nav>
       </Navbar.Collapse>
