@@ -9,7 +9,7 @@ const TechAndToolsContainer = () => {
         <div className="row section-separator ">
           <div className="section-title col-sm-12">
             <h2 className="tech-title">
-              Tech And Tools<hr></hr>
+              Skills And Tools<hr></hr>
             </h2>
           </div>
           <div className="col-sm-12">
