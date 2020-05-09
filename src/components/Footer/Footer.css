@@ -1,6 +1,6 @@
 .footer {
     text-align: center;
-
+    background: linear-gradient(90deg, rgba(0, 255, 213, 1) 0%, rgba(135, 190, 255, 1) 53%, rgba(76, 160, 158, 1) 100%)
 }
 
 .social-icons-footer {

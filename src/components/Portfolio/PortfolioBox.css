@@ -24,8 +24,9 @@ figure figcaption {
     color: #fff;
     bottom: 0;
     z-index: 10;
-    background-color: #0bceaf;
-    opacity: 0.95;
+    /* background-color: #0bceaf; */
+    background: linear-gradient(90deg, rgba(135, 244, 255, 1) 0%, rgba(65, 162, 229, 0.8802871490393032) 100%);
+    ;
     cursor: pointer;
 
 
