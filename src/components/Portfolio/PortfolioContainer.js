@@ -7,6 +7,8 @@ const PortfolioConatainer = () => {
   const myProject = getProject();
   return (
     <div className="portfolio">
+      <div id="stars"></div>
+      <div id="stars2"></div>
       <div className="container">
         <div className="row section-separator ">
           <div className="section-title col-sm-12">

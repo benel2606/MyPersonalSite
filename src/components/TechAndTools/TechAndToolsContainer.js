@@ -5,6 +5,7 @@ import { getTech } from "./TechList";
 const TechAndToolsContainer = () => {
   return (
     <div className="skills-tools">
+      <div id="stars3"></div>
       <div className="container">
         <div className="row section-separator ">
           <div className="section-title col-sm-12">

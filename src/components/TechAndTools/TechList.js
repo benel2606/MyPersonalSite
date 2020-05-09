@@ -1,7 +1,7 @@
 const getTech = () => {
   return [
     { name: "Javascript", image: "js.svg" },
-    { name: "CSS3", image: "CSS.svg" },
+    { name: "CSS3", image: "css.svg" },
     { name: "HTML5", image: "html.svg" },
     { name: "ReactJS", image: "react.svg" },
     { name: "NodeJS", image: "nodejs.svg" },
@@ -14,7 +14,6 @@ const getTech = () => {
     { name: "OOP", image: "oop.png" },
     { name: "MongoDB", image: "mongodb.png" },
     { name: "NPM", image: "npm.svg" },
-
     { name: "Bootstrap", image: "bootstrap.svg" },
   ];
 };

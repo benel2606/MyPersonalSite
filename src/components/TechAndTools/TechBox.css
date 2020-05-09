@@ -20,3 +20,9 @@
         padding-bottom: 10px;
     }
 }
+
+@media only screen and (max-width: 900px) {
+    .tech-box {
+        padding-bottom: 30px;
+    }
+}

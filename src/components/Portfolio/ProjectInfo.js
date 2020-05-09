@@ -18,7 +18,7 @@ const getProject = (project) => {
         "Hooks",
       ],
       site: "https://guy490.github.io/TravelMatch/",
-      main_image: "TravelMatch-home.JPG",
+      main_image: "TravelMatch-home1.JPG",
       images: [
         ["TravelMatch-home.JPG", "Home Page"],
         ["TravelMatch-bars.JPG", "Show Places"],

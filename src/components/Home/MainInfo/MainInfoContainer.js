@@ -6,6 +6,8 @@ import MyImage from "./MyImage";
 const MainInfoContainer = () => {
   return (
     <div>
+      <div id="stars"></div>
+      <div id="stars2"></div>
       <div className="main-info">
         <div className="container">
           <div className="row xs-column-reverse section-separator home-padding">
