@@ -6,6 +6,7 @@ import ExperienceConatiner from "./components/Experience/ExperienceContainer";
 import PortfolioConatainer from "./components/Portfolio/PortfolioContainer";
 import NavBar from "./components/NavBar/NavBar";
 import TechAndToolsContainer from "./components/TechAndTools/TechAndToolsContainer";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <ExperienceConatiner />
       <PortfolioConatainer />
       <TechAndToolsContainer />
+      <Footer />
     </div>
   );
 };
