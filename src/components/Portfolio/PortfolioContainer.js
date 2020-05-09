@@ -15,6 +15,12 @@ const PortfolioConatainer = () => {
             <h2 className="portfolio-title">
               Portfolio<hr></hr>
             </h2>
+            <p>
+              You can find more of my project on my{" "}
+              <a className="my-github" href="https://github.com/benel2606">
+                Github
+              </a>
+            </p>
           </div>
           <div className="project-gallery col-sm-12">
             <div className="portfolio row">
