@@ -5,7 +5,9 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <Navbar collapseOnSelect fixed="top" expand="sm" bg="light" variant="light">
-      <Navbar.Brand href="#home">Benel Aharon</Navbar.Brand>
+      <Navbar.Brand>
+        <img className="main-logo" src="logo.png" alt=""></img>
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">

@@ -8,3 +8,22 @@
     opacity: 0.9;
     padding-right: 4vh;
 }
+
+.main-logo {
+    height: 50px;
+    width: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-logo {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .main-logo {
+        height: 30px;
+        width: 30px;
+    }
+}
