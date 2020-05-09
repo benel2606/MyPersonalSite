@@ -16,10 +16,11 @@ const PortfolioConatainer = () => {
               Portfolio<hr></hr>
             </h2>
             <p>
-              You can find more of my project on my{" "}
+              You can find more of my projects on my{" "}
               <a className="my-github" href="https://github.com/benel2606">
                 Github
-              </a>
+              </a>{" "}
+              account.
             </p>
           </div>
           <div className="project-gallery col-sm-12">
