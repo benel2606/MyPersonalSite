@@ -45,7 +45,7 @@ const AboutContainer = () => {
                   <span>C++</span>
                 </li>
               </ul>
-              <a href="./Benel Aharon- CV.pdf" className="btn btn-fill">
+              <a href="./Benel Aharon.pdf" className="btn btn-fill">
                 Downlaod CV
                 <FontAwesomeIcon
                   icon={faDownload}
