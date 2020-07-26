@@ -15,7 +15,7 @@ const AboutContainer = () => {
             <div className="about-inner">
               <h2 className="about-title">About Me</h2>
               <p>
-                Hey, I’m Benel, Fourth-year Software Engineering Student.
+                Hey, I’m Benel, Outstanding Software Engineering Graduate.
                 Experience in the development of undergraduate studies. Love
                 learning and earning new abilities. High motivation and
                 willingness of challenging mission. Aside from having fun with
@@ -30,10 +30,13 @@ const AboutContainer = () => {
                   <span>React</span>
                 </li>
                 <li>
-                  <span>HTML</span>
+                  <span>NodeJS</span>
                 </li>
                 <li>
-                  <span>CSS</span>
+                  <span>HTML5</span>
+                </li>
+                <li>
+                  <span>CSS3</span>
                 </li>
                 <li>
                   <span>Java</span>

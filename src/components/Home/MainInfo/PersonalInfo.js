@@ -19,7 +19,7 @@ const PersonalInfo = () => {
         <span className="bubble">Hey I'm</span>
       </div>
       <h2 className="my-name">Benel Aharon</h2>
-      <div className="my-title">Software Engineering Student</div>
+      <div className="my-title">Outstanding Software Engineering Graduate</div>
       <ul>
         <li className="other-details">
           <FontAwesomeIcon
